@@ -31,7 +31,10 @@ export const LoadingScreen = ({ onComplete }) => {
         playsInline
         className="fixed inset-0 w-full h-full object-cover z-[-2]"
       >
-        <source src="/videos/galaxy.mp4" type="video/mp4" />
+        <source
+          src="https://res.cloudinary.com/dlseuftkj/video/upload/v1752233826/galaxy_codwki.mp4"
+          type="video/mp4"
+        />
       </video>
 
       <video
@@ -41,7 +44,10 @@ export const LoadingScreen = ({ onComplete }) => {
         playsInline
         className="fixed inset-x-0 mt-[-60%] md:mt-[-45.5%] w-full h-[40vh] md:h-auto  object-cover z-[-1] mix-blend-lighten"
       >
-        <source src="/videos/blackhole.mp4" type="video/mp4" />
+        <source
+          src="https://res.cloudinary.com/dlseuftkj/video/upload/v1752233675/blackhole_wurd3c.mp4"
+          type="video/mp4"
+        />
       </video>
 
       <div className="mb-4 text-3xl md:text-5xl font-mono font-bold z-10">
