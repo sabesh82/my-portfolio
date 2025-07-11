@@ -16,7 +16,10 @@ const Home = () => {
         playsInline
         className="fixed inset-0 w-full h-full object-cover z-0 opacity-30"
       >
-        <source src="/videos/galaxy.mp4" type="video/mp4" />
+        <source
+          src="https://res.cloudinary.com/dlseuftkj/video/upload/v1752233826/galaxy_codwki.mp4"
+          type="video/mp4"
+        />
       </video>
       <RevealOnScroll>
         <div className="text-center max-w-7xl mx-auto z-10 px-4 flex flex-col md:flex-row items-center justify-between gap-20">
