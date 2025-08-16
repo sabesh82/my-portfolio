@@ -32,7 +32,7 @@ const Navbar = () => {
         </button>
 
         {/*navlinks*/}
-        <div className="hidden md:flex space-x-4 items-center">
+        <div className="hidden md:flex space-x-5 items-center">
           {navlinks.map((link, key) => (
             <a
               key={key}

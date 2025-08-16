@@ -9,29 +9,31 @@ const About = () => {
     "TypeScript",
     "JavaScript",
     "TailwindCSS",
-    "Python",
   ];
-  const backendSkills = ["NextJS", "MongoDB", "Prisma", "SQL"];
+  const backendSkills = ["NextJS", "MongoDB", "Prisma", "SQL(basic)"];
 
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center py-25 md:py-27"
+      className="min-h-screen flex items-center justify-center py-1 md:py-27"
     >
       <RevealOnScroll>
-        <div className="flex flex-col items-center max-w-3xl mx-auto px-4">
+        <div className="flex flex-col items-center max-w-5xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-purple-400 to-white inline-block text-transparent bg-clip-text">
             About Me
           </h2>
 
-          <div className="rounded-xl p-6 border-white/10 border ">
-            <p className="text-justify  text-gray-400 mb-6 hover:text-gray-300 transition duration-300">
-              A web developer focused on crafting clean, scalable, and efficient
-              web applications. Experienced with modern tools like Next.js,
-              React, and TypeScript. Passionate about continuous learning and
-              problem-solving, with growing interests in artificial intelligence
-              (AI) and cloud computing to build smarter, more powerful digital
-              experiences.
+          <div className="rounded-xl p-4 border-white/10 border ">
+            <p className="text-justify text-sm md:text-lg text-gray-400 mb-6 hover:text-gray-300 transition duration-300">
+              I&apos;m a Software Engineer passionate about creating
+              user-friendly and scalable web applications. I enjoy working with
+              technologies like React, Next.js, TypeScript, JavaScript, and
+              MongoDB to build clean, efficient, and maintainable code. I excel
+              in teamwork, communication, problem-solving, time management, and
+              adaptability, thriving in agile environments and leveraging tools
+              like Slack and Jira for collaboration, project tracking, and
+              sprint planning. Always eager to learn new technologies, I focus
+              on delivering solutions that make a real impact.
             </p>
           </div>
 
@@ -64,6 +66,7 @@ const About = () => {
               </div>
             </div>
           </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             {/*Education*/}
             <div className="p-6 rounded-xl border-white/10">
@@ -76,8 +79,8 @@ const About = () => {
                 <li>GPA: Pending</li>
                 <li>
                   Nasriya Central College, Chilaw.
-                  <br /> G.C.E. Advanced Level &ndash; Physical Science (Maths,
-                  Physics, Chemistry)
+                  <br /> G.C.E. Advanced Level &ndash; Physical Science <br />
+                  (Maths, Physics, Chemistry)
                 </li>
               </ul>
             </div>
@@ -87,8 +90,63 @@ const About = () => {
               <div className="space-y-4 text-gray-300">
                 <h4 className="font-semibold">
                   <ul className="list-disc list-inside text-gray-300 space-y-2">
+                    <li>Software Engineer Intern at KIFGO (Pvt) Ltd (2025)</li>
+                  </ul>
+                </h4>
+              </div>
+            </div>
+            {/*certifications*/}
+            <div className="p-6 rounded-xl border-white/10">
+              <h3 className="text-2xl font-bold mb-4">Certificates</h3>
+              <div className="space-y-4 text-gray-300">
+                <h4 className="font-semibold">
+                  <ul className="list-disc list-inside text-purple-200 space-y-2">
                     <li>
-                      Full-Stack Developer Intern at KIFGO (Pvt) Ltd (2025)
+                      {" "}
+                      <a
+                        href="https://www.coursera.org/account/accomplishments/verify/YNU1M314LOIS"
+                        target="_"
+                        className="underline text-sm md:text-base"
+                      >
+                        Introduction to Cloud Computing (Issued by IBM)
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.cert.devtown.in/verify/13PFVB"
+                        target="_"
+                        className="underline text-sm md:text-base"
+                      >
+                        Introduction to Front-End Development (DevTown)
+                      </a>{" "}
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.sololearn.com/en/certificates/CC-RTPRPQ6T"
+                        target="_"
+                        className="underline text-sm md:text-base"
+                      >
+                        Generative AI in Practice (Issued by Sololearn)
+                      </a>{" "}
+                    </li>
+                    <li>
+                      {" "}
+                      <a
+                        href="https://www.sololearn.com/en/certificates/CC-KIHJVX0C"
+                        target="_"
+                        className="underline text-sm md:text-base"
+                      >
+                        Prompt Engineering (Issued by Sololearn)
+                      </a>{" "}
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.sololearn.com/en/certificates/CC-KYRB0VZO"
+                        target="_"
+                        className="underline text-sm md:text-base"
+                      >
+                        Introduction to LLMs (Issued by Sololearn){" "}
+                      </a>
                     </li>
                   </ul>
                 </h4>

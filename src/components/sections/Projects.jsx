@@ -15,6 +15,43 @@ const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/20 flex flex-col  bg-gradient-to-b from-gray-900 to-transparent hover:scale-102 transform duration-200">
               <h3 className="text-xl md:text-2xl mb-2 font-bold">
+                Employee Rating System
+              </h3>
+              <p className="text-gray-400 mb-2">
+                A full-stack system for rating employees and tracking their
+                performance. Allows custom criteria and secure role-based
+                access.
+              </p>
+              <div className="flex flex-wrap gap-2 mt-2">
+                {[
+                  "NextJs",
+                  "TypeScript",
+                  "MongoDB",
+                  "Prisma",
+                  "React",
+                  "TailwindCSS",
+                ].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 transition"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/sabesh82/employe-rating-system"
+                  className="text-purple-200 hover:text-purple-300 transition-colors my-4"
+                  target="_"
+                >
+                  View Project→
+                </a>
+              </div>
+            </div>
+            <div className="p-6 rounded-xl border border-white/20 flex flex-col  bg-gradient-to-b from-gray-900 to-transparent hover:scale-102 transform duration-200">
+              <h3 className="text-xl md:text-2xl mb-2 font-bold">
                 Inventory Management System
               </h3>
               <p className="text-gray-400 mb-2">
@@ -121,53 +158,16 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/20 flex flex-col bg-gradient-to-b from-gray-900 to-transparent hover:scale-102 transform duration-200">
-              <h3 className="text-xl md:text-2xl mb-2 font-bold">
-                Chat application (reading)
-              </h3>
-              <p className="text-gray-400 mb-2">
-                A real-time chat application enabling users to securely send and
-                receive messages with instant updates.
-              </p>
-              <div className="flex flex-wrap gap-2 mt-2">
-                {[
-                  "NextJs",
-                  "TypeScript",
-                  "ConvexDB",
-                  "Tailwind CSS",
-                  "Clerk",
-                  "Shadcn/UI",
-                ].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 transition"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-
-              <div className="flex justify-between items-center">
-                <a
-                  href="#"
-                  className="text-purple-200 hover:text-purple-300 transition-colors my-4"
-                  target="_"
-                >
-                  View Project→
-                </a>
-              </div>
-            </div>
-
             <div className="py-8 px-6 rounded-xl border border-white/20 flex flex-col bg-gradient-to-b from-gray-900 to-transparent hover:scale-102 transform duration-200">
               <h3 className="text-xl md:text-2xl mb-2 font-bold">
-                Spotify-Clone
+                Crypto-Currency site
               </h3>
               <p className="text-gray-400 mb-2">
-                A React-based music player with custom controls, seek bar, and
-                dynamic audio playback.
+                A cryptocurrency Front-End site with live price updates, market
+                trends, and interactive UIs.
               </p>
               <div className="flex flex-wrap gap-2 mt-2">
-                {["React", "TypeScript", "Tailwind CSS"].map((tech, key) => (
+                {["NextJs", "TypeScript", "Tailwind CSS"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 transition"
@@ -179,7 +179,7 @@ const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/sabesh82/Spotify-Clone-App"
+                  href="https://github.com/sabesh82/crypto-vibe"
                   className="text-purple-200 hover:text-purple-300 transition-colors my-4"
                   target="_"
                 >
@@ -218,6 +218,35 @@ const Projects = () => {
               </div>
             </div>
 
+            <div className="py-8 px-6 rounded-xl border border-white/20 flex flex-col bg-gradient-to-b from-gray-900 to-transparent hover:scale-102 transform duration-200">
+              <h3 className="text-xl md:text-2xl mb-2 font-bold">
+                Spotify-Clone
+              </h3>
+              <p className="text-gray-400 mb-2">
+                A React-based music player with custom controls, seek bar, and
+                dynamic audio playback.
+              </p>
+              <div className="flex flex-wrap gap-2 mt-2">
+                {["React", "TypeScript", "Tailwind CSS"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 transition"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/sabesh82/Spotify-Clone-App"
+                  className="text-purple-200 hover:text-purple-300 transition-colors my-4"
+                  target="_"
+                >
+                  View Project→
+                </a>
+              </div>
+            </div>
             <div className="py-8 px-6 rounded-xl border border-white/20 flex flex-col bg-gradient-to-b from-gray-900 to-transparent hover:scale-102 transform duration-200">
               <h3 className="text-xl md:text-2xl mb-2 font-bold">
                 Educational Org site
@@ -270,6 +299,43 @@ const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://github.com/sabesh82/E-Commerce-frontend-site"
+                  className="text-purple-200 hover:text-purple-300 transition-colors my-4"
+                  target="_"
+                >
+                  View Project→
+                </a>
+              </div>
+            </div>
+
+            <div className="p-6 rounded-xl border border-white/20 flex flex-col bg-gradient-to-b from-gray-900 to-transparent hover:scale-102 transform duration-200">
+              <h3 className="text-xl md:text-2xl mb-2 font-bold">
+                Chat application (reading)
+              </h3>
+              <p className="text-gray-400 mb-2">
+                A real-time chat application enabling users to securely send and
+                receive messages with instant updates.
+              </p>
+              <div className="flex flex-wrap gap-2 mt-2">
+                {[
+                  "NextJs",
+                  "TypeScript",
+                  "ConvexDB",
+                  "Tailwind CSS",
+                  "Clerk",
+                  "Shadcn/UI",
+                ].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 transition"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex justify-between items-center">
+                <a
+                  href="#"
                   className="text-purple-200 hover:text-purple-300 transition-colors my-4"
                   target="_"
                 >
